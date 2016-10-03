@@ -1,12 +1,12 @@
 // file: compoundassign.c
-#define _CRT_SECURE_NO_WARNINGS //scanf() ¿À·ù¸¦ ¹æÁöÇÏ±â À§ÇÑ »ó¼ö Á¤ÀÇ
+#define _CRT_SECURE_NO_WARNINGS //scanf() ì˜¤ë¥˜ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•œ ìƒìˆ˜ ì •ì˜
 
 #include <stdio.h>
 
 int main(void)  {
 	int x = 5, y = 10;
 
-	printf("µÎ Á¤¼ö¸¦ ÀÔ·Â >>", &x, &y);
+	printf("ë‘ ì •ìˆ˜ë¥¼ ì…ë ¥ >>", &x, &y);
 	scanf("%d%d", &x, &y);
 
 	printf("The addition is: %d\n",x +=y);
