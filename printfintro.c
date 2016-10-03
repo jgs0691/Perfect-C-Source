@@ -6,10 +6,10 @@ int main(void)  {
 	int n = 16, ret_value = 0;
 
 	ret_value = printf("Hello!\n");
-	printf("printf() ¹İÈ¯°ª(Ãâ·ÂµÈ ¹®ÀÚ¼ö) : %d\n", ret_value);
+	printf("printf() ë°˜í™˜ê°’(ì¶œë ¥ëœ ë¬¸ììˆ˜) : %d\n", ret_value);
 
-	ret_value = printf("Ãâ·Â°ª: %d %i %o %#o %#x %#X\n", n, n, n, n, n, n);
-	printf("¹İÈ¯°ª(Ãâ·ÂµÈ ¹®ÀÚ¼ö) : %d\n", ret_value);
+	ret_value = printf("ì¶œë ¥ê°’: %d %i %o %#o %#x %#X\n", n, n, n, n, n, n);
+	printf("ë°˜í™˜ê°’(ì¶œë ¥ëœ ë¬¸ììˆ˜) : %d\n", ret_value);
 
 	printf("%d %i\n", 16, 16);
 	printf("%o %#o\n", 16, 16);
